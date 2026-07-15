@@ -13,18 +13,18 @@ import Todo from "./components/Todo/Todo";
 
 function App() {
   return (
-    // <BrowserRouter>
-    //   <Header />
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/about" element={<About />} />
-    //     <Route path="/services" element={<Services />} />
-    //     <Route path="/testimonials" element={<Client />} />
-    //     <Route path="/contact" element={<ContactPage />} />
-    //   </Routes>
-    // </BrowserRouter>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/testimonials" element={<Client />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+    </BrowserRouter>
     // <UseState />
-    <Todo />
+    // <Todo />
   );
 }
 
