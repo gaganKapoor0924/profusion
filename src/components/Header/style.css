@@ -1,0 +1,24 @@
+.header_section{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  .container{
+    width:90%;
+    .top_header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding:10px 0;
+    
+      .other{
+        .phone{
+          padding:10px 20px;
+          background: rgb(250, 126, 101);
+          color:#fff;
+          border-radius: 20px;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,23 @@
+  .navItems{
+        nav{
+          ul{
+            list-style-type: none;
+            display: flex;
+            gap:20px;
+            li{
+              font-size: 18px;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              cursor: pointer;
+              &:hover{
+                color:rgb(250, 126, 101);
+
+              }
+              a{
+                text-decoration: none;
+                color:#000;
+              }
+            }
+          }
+        }
+      }

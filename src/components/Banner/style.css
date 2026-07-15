@@ -1,0 +1,19 @@
+.banner_section{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  position: relative;
+  height: 100vh;
+  clear:both;
+  padding:30px 0;
+  h2{
+    font-size: 120px;
+    position: absolute;
+    top:200px;
+    z-index:1;
+  }
+  img{
+    position: absolute;
+    z-index:2;
+  }
+}
